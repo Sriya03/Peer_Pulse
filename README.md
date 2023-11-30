@@ -8,7 +8,7 @@ Peer Pulse is a web-based solution designed to enhance the university experience
 ### Domain-Driven Design Model
 We have developed a domain-driven design model that efficiently organizes the complexities of our platform, ensuring that it is student-focused and intuitive.
 
-![Project DDD](https://github.com/info-6150-fall-2023/final-project-cohortcrafters/blob/b7ae9f94acb3b94f8203560d0441747d0b524cff/Project%20DDD.drawio.png)
+![Project DDD](https://github.com/Sriya03/Peer_Pulse/blob/main/Project%20DDD.drawio.png)
 
 
 
@@ -22,7 +22,7 @@ In this phase, each team member has contributed to the development of an API sch
 
 ## Creation of Rest APIs and creating database connections
 
-In this phase, each team member has contributed to the development of an Rest API schema, focusing on different aspects of the platform:
+In this phase, each team member has contributed to the development of Rest API schema, focusing on different aspects of the platform:
 
 - Events Rest API: An Events REST API is an interface that allows clients to interact with a server to perform operations related to events. In the context of web development, events could represent activities, gatherings, or occurrences that users may be interested in.
 - Housings Rest API: A Housings REST API is an interface that facilitates the interaction between clients and a server for managing housing-related information. In the context of real estate or property management, this API allows users to perform operations related to housing units, such as fetching available listings
@@ -32,7 +32,24 @@ In this phase, each team member has contributed to the development of an Rest AP
 ## Installation and Setup
 To set up the project in its current state:
 
-Clone the repository: git clone git@github.com:info-6150-fall-2023/final-project-cohortcrafters.git 
+Clone the repository: git clone git@github.com:Sriya03/Peer_Pulse.git
+
+To run client:
+``` 
+ cd frontend
+ npm install
+ npm run
+ ```
+
+ To run server:
+ ```
+ cd backend
+ npm install
+ npm start
+ ```
+
+ To test backend apis: Use Postman - port number: 5000
+ For frontend the localhost is set to port 3000
 
 To view the domain model or API schemas: navigate to apiSchema in the root folder
 
@@ -44,13 +61,13 @@ To view the domain model or API schemas: navigate to apiSchema in the root folde
 4) Deploy the Application to Azure Cloud
 
 ## Contributions
-- [Hari Sriya Pelluri]: Events API, Events REST API 
-- [Kavya Rachana Malluvalasa]: Housing API, Housing REST API 
-- [Raveena Ingale]: Blogs API, Blogs REST API 
-- [Sai Krishna Reddy Gaddam]: User API, User REST API 
+- Hari Sriya Pelluri
+- Kavya Rachana Malluvalasa
+- Raveena Ingale
+- Sai Krishna Reddy Gaddam
 
 
 ## Acknowledgements
-Special thanks go to Prof. Amuthan, our mentors, and fellow contributors for their valuable guidance and support during this phase. The collective effort and collaboration within the group have greatly enriched this experience.
+Special thanks go to Prof. Amuthan, our mentors, and fellow contributors for their valuable guidance and support during the project development. The collective effort and collaboration within the group have greatly enriched this experience.
 
 
